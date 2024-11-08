@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+/* Estilos do corpo */
+body {
+    background-image: url('logo.jpg');  /* Caminho para a imagem */
+    background-size: cover;                   /* Faz a imagem cobrir toda a tela */
+    background-position: center;              /* Centraliza a imagem na tela */
+    background-attachment: fixed;             /* Faz a imagem ficar fixa quando rolar a página */
+    background-repeat: no-repeat;             /* Impede que a imagem se repita */
+    height: 100vh;                            /* Garante que o corpo ocupe 100% da altura da janela */
+    margin: 0;                               /* Remove qualquer margem padrão */
+    font-family: Arial, sans-serif;           /* Fonte da página */
+}
+
+/* Exemplo de um título que vai ficar em cima da imagem de fundo */
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 15px; /* Espaço no topo para o título */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Seção de serviços */
+#servicos {
+    
+    padding: 40px;
+    text-align: center;
+    justify-content: center;    /* Alinha o quadrado horizontalmente no centro */
+    align-items: center; 
+}
+
+#servicos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    justify-content: center;    /* Alinha o quadrado horizontalmente no centro */
+    align-items: center; 
+}
+
+.servico {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    box-shadow:  0 3px 9px rgba(255, 255, 255);
+    
+}
+
+
+
+.servico img {
+    max-width: 100%;
+    height: auto;
+}
+
+.servico h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.servico p {
+    margin: 5px 0;
+}
+
+/* Seção de contato */
+#contato {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 1;
+    width: 100%;
+}
+.quadrado {
+    
+    background-color: #000000;  /* Cor de fundo */
+    padding: 20px;              /* Espaçamento interno ao redor do texto */
+    width: fit-content;         /* Faz o quadrado ajustar o tamanho ao conteúdo */
+    border-radius: 0px;        /* Bordas arredondadas, se desejar */
+    color: rgb(255, 255, 255);               /* Cor do texto */
+    font-family: Georgia, 'Times New Roman', Times, serif;  /* Fonte do texto */
+    text-align: center;         /* Alinha o texto ao centro */
+    box-shadow: 0 4px 10px rgba(255, 255, 255);  /* Sombra sutil para o efeito */
+    justify-content: center;    /* Alinha o quadrado horizontalmente no centro */
+    align-items: center;        /* Alinha o quadrado verticalmente no centro */
+}
+
+.quadrado:hover {
+    background-color: #696969;  /* Muda a cor de fundo quando o mouse passa */
+    transform: scale(1.05);      /* Aumenta ligeiramente o tamanho do quadrado */
+    transition: all 0.3s ease;   /* Faz a transição suave */
+}
+
+.item1 {
+    display: inline-block; /* Faz os elementos ficarem lado a lado */
+    margin-right: 10px; /* Adiciona um espaço entre eles */
+}
+
+.item2 {
+    display: inline-block; /* Faz os elementos ficarem lado a lado */
+    margin-right: 10px; /* Adiciona um espaço entre eles */
+}
+
+.item3 {
+    display: inline-block; /* Faz os elementos ficarem lado a lado */
+    margin-right: 10px; /* Adiciona um espaço entre eles */
+}
+
+.item4 {
+    display: inline-block; /* Faz os elementos ficarem lado a lado */
+    margin-right: 10px; /* Adiciona um espaço entre eles */
+}
+
+
